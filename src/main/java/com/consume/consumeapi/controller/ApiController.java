@@ -24,11 +24,11 @@ public class ApiController {
 
 //    ResponseEntity<Movie[]> response =
 //            restTemplate.getForEntity(
-//                    "http://localhost:8080/year/",
+//                    "http://localhost:8080/yr/",
 //                    Movie[].class);
 //    Movie[] employees = response.getBody();
 
-    @GetMapping("/{yr}")
+    @GetMapping("/{yr}") //http://localhost:8082/2000
     public List<Movie> getCountries(@PathVariable int yr){
 //        Object year =restTemplate.getForObject(url+yr,Object.class,"8c4c63a228db55743cff53868b3124af");
 
