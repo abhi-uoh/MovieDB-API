@@ -1,5 +1,5 @@
 # MovieDB-API
-consume themoviedb API and seach movie yearwise and save the Data to Mysql Database.
+Consume & Retrieve data from The Movie Database API, search for movies year by year, and store the information in a MySQL database
 
 ## Response from POSTMAN 
 ![alt text](https://github.com/abhi-uoh/MovieDB-API/blob/master/src/Images/Postman-Test.png?raw=true)
